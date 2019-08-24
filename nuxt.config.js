@@ -1,16 +1,3 @@
-const purgecss = require('@fullhuman/postcss-purgecss')({
-
-// Specify the paths to all of the template files in your project 
-content: [
-    './src/**/*.html',
-    './src/**/*.vue',
-    // etc.
-],
-
-// Include any special characters you're using in this regular expression
-defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
-})
-
 export default {
   mode: 'universal',
   /*
@@ -25,7 +12,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=BioRhyme:400,700|Space+Mono:400,400i,700&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700&display=swap' }
     ],
   },
   /*

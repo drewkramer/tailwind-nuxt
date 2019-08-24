@@ -90,7 +90,8 @@ export default {
 .border-top,
 .border-right,
 .border-bottom {
-  @apply fixed bg-black;
+  @apply fixed;
+  background: #000;
 }
 
 .border-top {
