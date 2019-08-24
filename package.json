@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-nuxt",
+  "version": "1.0.0",
+  "description": "My groovy Nuxt.js project",
+  "author": "Drew Kramer",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "postcss": "^7.0.17",
+    "postcss-hexrgba": "^1.0.2",
+    "postcss-nested": "^4.1.2",
+    "postcss-responsive-type": "^1.0.0",
+    "postcss-url": "^8.0.0"
+  }
+}
