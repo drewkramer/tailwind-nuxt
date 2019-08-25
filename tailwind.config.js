@@ -7,8 +7,9 @@
 module.exports = {
   theme: {
     fontFamily: {
-     'body': ['"Space Mono"', 'SF Mono', 'Menlo', 'monospace'],
-     'display': ['"Space Grotesk"', 'sans-serif'],
+      'sans': ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
+      'body': ['"Space Mono"', 'SF Mono', 'Menlo', 'monospace'],
+      // 'display': ['"Space Grotesk"', 'sans-serif'],
     }
   },
   variants: {},
